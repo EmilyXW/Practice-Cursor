@@ -1,7 +1,7 @@
 import { Carousel, CarouselItem, CarouselContent } from "@/components/ui/carousel";
 import { Navbar } from "@/components/ui/navbar";
 import { Header } from "@/components/header";
-export default function Home() {
+export default function Contact() {
   return (
     <div>
       <Navbar />
@@ -9,8 +9,8 @@ export default function Home() {
         <CarouselContent>
           <CarouselItem>
             <img
-              src="/clouds.jpeg"
-              alt="cloud and koi unfinished painting"
+              src="/trees.jpeg"
+              alt="tree leaves"
               style={{
                 width: "100%",
                 height: 300,
@@ -33,13 +33,7 @@ export default function Home() {
           </CarouselItem>
         </CarouselContent>
       </Carousel>
-      <Header title = "Home" />
-      <p>
-          wertyuiojhgfdcfvgbhnjm,m qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq  
-      </p>
+      <Header title = "Contact" />
     </div>
   );
 }
