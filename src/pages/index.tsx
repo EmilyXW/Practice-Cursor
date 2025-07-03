@@ -1,6 +1,7 @@
 import { Carousel, CarouselItem, CarouselContent } from "@/components/ui/carousel";
 import { Navbar } from "@/components/ui/navbar";
 import { Header } from "@/components/header";
+
 export default function Home() {
   return (
     <div>
