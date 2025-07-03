@@ -1,6 +1,7 @@
-import { Carousel, CarouselItem, CarouselContent } from "@/components/ui/carousel";
+import { Carousel, CarouselItem, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Navbar } from "@/components/ui/navbar";
-import { Header } from "@/components/header";
+import { Header } from "@/components/ui/header";
+
 export default function About() {
 
   return (
@@ -34,6 +35,8 @@ export default function About() {
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
       <Header title = "About" />
     </div>

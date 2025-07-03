@@ -1,6 +1,6 @@
-import { Carousel, CarouselItem, CarouselContent } from "@/components/ui/carousel";
+import { Carousel, CarouselItem, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Navbar } from "@/components/ui/navbar";
-import { Header } from "@/components/header";
+import { Header } from "@/components/ui/header";
 export default function OtherPhotos() {
   return (
     <div>
@@ -33,6 +33,8 @@ export default function OtherPhotos() {
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
       <Header title = "Other Photos" />
     </div>

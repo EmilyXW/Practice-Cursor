@@ -3,22 +3,13 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <nav
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        padding: "1rem 2rem",
-        borderBottom: "1px solid #eee",
-        background: "var(--background)",
-      }}
-    >
+    <nav className="flex items-center justify-between px-8 py-4 border-b bg-background">
       <div>
         <Link href="/">
-          <span style={{ fontWeight: "bold", fontSize: 24 }}>Home</span>
+          <span className="font-bold text-2xl">Home</span>
         </Link>
       </div>
-      <div style={{ display: "flex", gap: "1rem" }}>
+      <div className="flex gap-4">
         <Link href="/about">
           <Button variant="ghost">About</Button>
         </Link>

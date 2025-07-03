@@ -1,14 +1,16 @@
-import { Carousel, CarouselItem, CarouselContent } from "@/components/ui/carousel";
-
+import { Carousel, CarouselItem, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Navbar } from "@/components/ui/navbar";
+import { Header } from "@/components/ui/header";
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
             <img
               src="/clouds.jpeg"
-              alt="cloud and koi unfinished painting"
+              alt="clouds"
               style={{
                 width: "100%",
                 height: 300,
@@ -30,10 +32,15 @@ export default function Home() {
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
-      <h1 style={{ textAlign: 'center', fontSize: 100, marginTop: 32, fontFamily: 'Shanfe, cursive' }}>
-        Nellie
-      </h1>
+      <Header title = "Home" />
+      <p>
+        wertyuiojhgfdcfvgbhnjm,m qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+        qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      </p>
     </div>
   );
 }
