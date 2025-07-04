@@ -6,6 +6,7 @@ export default function About() {
 
   return (
     <div>
+      <div className="bg-red-500 text-white p-4">If this is red, Tailwind works!</div>
       <Navbar />
       <Carousel>
         <CarouselContent>
