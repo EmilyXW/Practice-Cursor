@@ -1,10 +1,9 @@
 import { Carousel, CarouselItem, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Navbar } from "@/components/ui/navbar";
 import { Header } from "@/components/ui/header";
 export default function CatPhotos() {
   return (
     <div>
-      <Navbar />
+      <Header title="Cat Photos" />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
@@ -35,7 +34,6 @@ export default function CatPhotos() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <Header title = "Cat Photos" />
     </div>
   );
 }

@@ -6,8 +6,7 @@ export default function About() {
 
   return (
     <div>
-      <div className="bg-red-500 text-white p-4">If this is red, Tailwind works!</div>
-      <Navbar />
+      <Header title="About" />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
@@ -39,7 +38,6 @@ export default function About() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <Header title = "About" />
     </div>
   );
 }

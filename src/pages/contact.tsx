@@ -4,7 +4,7 @@ import { Header } from "@/components/ui/header";
 export default function Contact() {
   return (
     <div>
-      <Navbar />
+      <Header title="Contact" />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
@@ -35,7 +35,6 @@ export default function Contact() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <Header title = "Contact" />
     </div>
   );
 }

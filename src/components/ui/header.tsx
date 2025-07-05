@@ -1,26 +1,26 @@
 interface HeaderProps {
-    title: string;
-    subtitle?:string;
+  title: string;
+  subtitle?: string;
 }
 
-export function Header({title, subtitle}: HeaderProps){
-    return(
-        <header style = {{
-            padding: "2rem",
+export function Header({ title, subtitle }: HeaderProps) {
+  return (
+    <header style={{
+      paddingTop: ".5vh",
+      paddingBottom: "2vh",
       background: "var(--background)",
-      borderBottom: "1px solid #eee",
       textAlign: "center"
     }}>
-         <h1 style={{ 
-        fontSize: "3rem", 
+      <h1 style={{
+        fontSize: "3rem",
         fontWeight: "bold",
         marginBottom: subtitle ? "0.5rem" : "0"
       }}>
         {title}
       </h1>
       {subtitle && (
-        <p style={{ 
-          fontSize: "1.2rem", 
+        <p style={{
+          fontSize: "1.2rem",
           color: "var(--muted-foreground)",
           margin: 0
         }}>
@@ -28,5 +28,5 @@ export function Header({title, subtitle}: HeaderProps){
         </p>
       )}
     </header>
-    );
+  );
 }

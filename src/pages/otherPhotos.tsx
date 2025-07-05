@@ -4,7 +4,7 @@ import { Header } from "@/components/ui/header";
 export default function OtherPhotos() {
   return (
     <div>
-      <Navbar />
+      <Header title="Other Photos" />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
@@ -36,7 +36,6 @@ export default function OtherPhotos() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      <Header title = "Other Photos" />
     </div>
   );
 }
