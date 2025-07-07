@@ -8,7 +8,7 @@ export function Header({ title, subtitle }: HeaderProps) {
     <header style={{
       paddingTop: ".5vh",
       paddingBottom: "2vh",
-      background: "var(--background)",
+      background: "rgba(232, 222, 255, 0.0)",
       textAlign: "center"
     }}>
       <h1 style={{
@@ -16,7 +16,7 @@ export function Header({ title, subtitle }: HeaderProps) {
         fontWeight: "bold",
         marginBottom: subtitle ? "0.5rem" : "0"
       }}>
-        {title}
+        <span className="text-outline text-5xl font-bold">{title}</span>
       </h1>
       {subtitle && (
         <p style={{

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 border-b-2 border-blue-200 bg-background">
+    <nav className="flex items-center justify-between px-8 py-4 border-b-[3px] border-[rgba(40,0,133,0.1)] bg-[rgba(40,0,133,0.2)]">
       <div>
         <Link 
           href="/" 
@@ -13,8 +13,10 @@ export function Navbar() {
             rounded-md 
             transition-all 
             duration-200 
-            hover:bg-blue-100
+            hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
+            hover:text-[rgb(255,255,255)]
+            text-[rgb(255,211,197)]
           "
         >
           <span className="font-bold text-2xl">Home</span>
@@ -25,12 +27,14 @@ export function Navbar() {
           href="/about" 
           className="
             inline-block 
-            px-3 py-2 
+            px-5 py-2 
             rounded-md 
             transition-all 
             duration-200 
-            hover:bg-blue-100 
+            hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
+            hover:text-[rgb(255,255,255)]
+            text-[rgb(255,211,197)]
           "
         >
           <Button variant="ghost">About</Button>
@@ -43,39 +47,45 @@ export function Navbar() {
             rounded-md 
             transition-all 
             duration-200 
-            hover:bg-blue-100 
+            hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
+            hover:text-[rgb(255,255,255)]
+            text-[rgb(255,211,197)]
           "
         >
           <Button variant="ghost">Contact</Button>
         </Link>
         <Link 
-          href="/catPhotos" 
+          href="/gallery" 
           className="
             inline-block 
             px-3 py-2 
             rounded-md 
             transition-all 
             duration-200 
-            hover:bg-blue-100 
+            hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
+            hover:text-[rgb(255,255,255)]
+            text-[rgb(255,211,197)]
           "
         >
-          <Button variant="ghost">Cat Photos</Button>
+          <Button variant="ghost">Gallery</Button>
         </Link>
         <Link 
-          href="/otherPhotos" 
+          href="/projects" 
           className="
             inline-block 
             px-3 py-2 
             rounded-md 
             transition-all 
             duration-200 
-            hover:bg-blue-100 
+            hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
+            hover:text-[rgb(255,255,255)]
+            text-[rgb(255,211,197)]
           "
         >
-          <Button variant="ghost">Other Photos</Button>
+          <Button variant="ghost">Projects</Button>
         </Link>
       </div>
     </nav>

@@ -11,8 +11,8 @@ export default function About() {
         <CarouselContent>
           <CarouselItem>
             <img
-              src="/doubleRainbow.jpeg"
-              alt="double rainbow"
+              src="/nightSky.jpeg"
+              alt="night sky"
               style={{
                 margin: "0 auto",
                 maxWidth: "100%",

@@ -1,9 +1,9 @@
 import { Carousel, CarouselItem, CarouselContent, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Header } from "@/components/ui/header";
-export default function CatPhotos() {
+export default function Gallery() {
   return (
     <div>
-      <Header title="Cat Photos" />
+      <Header title="Gallery" />
       <Carousel>
         <CarouselContent>
           <CarouselItem>
