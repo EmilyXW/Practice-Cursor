@@ -18,8 +18,8 @@ export function Layout({ children }: LayoutProps) {
                 {/*navbar to appear on every page*/}
                 <Navbar />
 
-                {/*main content container*/}
-                <main className="container mx-auto px-4 py-8">
+                {/*main content container - adjusted to fit within columns */}
+                <main className="ml-8 mr-8 px-4 py-8">
                     {children}
                 </main>
             </div>

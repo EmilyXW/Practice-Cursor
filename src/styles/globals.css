@@ -4,8 +4,8 @@
 
 @layer components {
   .carousel-image {
-    width: 100%;
-    height: 300px;
+    width: 80vw;
+    height: 80vh;
     object-fit: cover;
     display: block;
   }
@@ -15,6 +15,24 @@
     height: 8vh;
     object-fit: cover;
     display: block;
+  }
+  
+  .carousel-main {
+    max-width: 28rem; /* max-w-sm - increased from 24rem */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-main {
+      max-width: 36rem; /* md:max-w-lg - increased from 32rem */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .carousel-main {
+      max-width: 48rem; /* lg:max-w-2xl - increased from 42rem */
+    }
   }
 }
 

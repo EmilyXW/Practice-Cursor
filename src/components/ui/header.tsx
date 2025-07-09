@@ -16,12 +16,12 @@ export function Header({ title, subtitle }: HeaderProps) {
         fontWeight: "bold",
         marginBottom: subtitle ? "0.5rem" : "0"
       }}>
-        <span className="text-outline text-5xl font-bold">{title}</span>
+        <span className="text-5xl font-bold text-white">{title}</span>
       </h1>
       {subtitle && (
         <p style={{
           fontSize: "1.2rem",
-          color: "var(--muted-foreground)",
+          color: "white",
           margin: 0
         }}>
           {subtitle}
