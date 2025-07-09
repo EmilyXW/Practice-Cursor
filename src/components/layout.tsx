@@ -8,7 +8,13 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
     return (
         <ParallaxBackground speed={0.3}>
-            <div>
+            <div className="relative">
+                {/* Left blue column */}
+                <div className="fixed left-0 top-0 w-8 h-full bg-[rgb(0,51,90)] bg-opacity-60 z-50"></div>
+                
+                {/* Right blue column */}
+                <div className="fixed right-0 top-0 w-8 h-full bg-[rgb(0,51,90)] bg-opacity-60 z-50"></div>
+                
                 {/*navbar to appear on every page*/}
                 <Navbar />
 

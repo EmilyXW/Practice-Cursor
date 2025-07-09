@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 border-b-[3px] border-[rgba(40,0,133,0.1)] bg-[rgba(40,0,133,0.2)]">
-      <div>
+    <nav className="flex items-center justify-between px-8 py-4 border-b-[2px] border-[rgba(40,0,133,0.1)] bg-[rgb(0,51,90)]">
+      <div className="ml-12">
         <Link 
           href="/" 
           className="
@@ -16,13 +16,13 @@ export function Navbar() {
             hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
             hover:text-[rgb(255,255,255)]
-            text-[rgb(255,211,197)]
+            text-[rgb(255,255,255)]
           "
         >
           <span className="font-bold text-2xl">Home</span>
         </Link>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mr-12">
         <Link 
           href="/about" 
           className="
@@ -34,7 +34,7 @@ export function Navbar() {
             hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
             hover:text-[rgb(255,255,255)]
-            text-[rgb(255,211,197)]
+            text-[rgb(255,255,255)]
           "
         >
           <Button variant="ghost">About</Button>
@@ -50,7 +50,7 @@ export function Navbar() {
             hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
             hover:text-[rgb(255,255,255)]
-            text-[rgb(255,211,197)]
+            text-[rgb(255,255,255)]
           "
         >
           <Button variant="ghost">Contact</Button>
@@ -66,7 +66,7 @@ export function Navbar() {
             hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
             hover:text-[rgb(255,255,255)]
-            text-[rgb(255,211,197)]
+            text-[rgb(255,255,255)]
           "
         >
           <Button variant="ghost">Gallery</Button>
@@ -82,7 +82,7 @@ export function Navbar() {
             hover:bg-[rgba(250,169,142,0.6)]
             hover:shadow-sm
             hover:text-[rgb(255,255,255)]
-            text-[rgb(255,211,197)]
+            text-[rgb(255,255,255)]
           "
         >
           <Button variant="ghost">Projects</Button>

@@ -27,25 +27,14 @@ export default function Projects() {
                   <img
                     src="/goose.jpeg"
                     alt="canada goose in grass"
-                    style={{
-                      margin: "0 auto",
-                      maxWidth: "100%",
-                      height: "60vh",
-                      objectFit: "contain",
-                      display: "block",
-                    }}
+                    className="w-full h-[300px] object-cover block"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <img
                     src="/catnipMouse.jpeg"
                     alt="Nellie with catnip mouse"
-                    style={{
-                      width: "100%",
-                      height: 300,
-                      objectFit: "cover",
-                      display: "block",
-                    }}
+                    className="w-full h-[300px] object-cover block"
                   />
                 </CarouselItem>
               </CarouselContent>

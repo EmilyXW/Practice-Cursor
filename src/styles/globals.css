@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .carousel-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .carousel-image-square {
+    width: 8vh;
+    height: 8vh;
+    object-fit: cover;
+    display: block;
+  }
+}
+
 p {
   overflow-x: auto;
   white-space: normal;         /* Allows text to wrap onto multiple lines */
@@ -21,6 +37,8 @@ p {
     padding-bottom: 2vh;
     background-color: rgba(250, 169, 142, 0.8);
     text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .text-outline {
